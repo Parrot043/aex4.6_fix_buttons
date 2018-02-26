@@ -287,10 +287,11 @@
     </string-array>
     <array name="config_networkNotifySwitches" />
     <string-array name="config_tether_usb_regexs">
+        <item>usb\\d</item>
         <item>rndis\\d</item>
     </string-array>
     <string-array name="config_tether_wifi_regexs">
-        <item>wlan\\d</item>
+        <item>wlan0</item>
     </string-array>
     <array name="config_tether_wimax_regexs" />
     <string-array name="config_tether_bluetooth_regexs">
