@@ -287,16 +287,16 @@
     </string-array>
     <array name="config_networkNotifySwitches" />
     <string-array name="config_tether_usb_regexs">
-        <item>usb\\d</item>
         <item>rndis\\d</item>
     </string-array>
     <string-array name="config_tether_wifi_regexs">
-        <item>wlan0</item>
+        <item>wlan\\d</item>
     </string-array>
     <array name="config_tether_wimax_regexs" />
     <string-array name="config_tether_bluetooth_regexs">
         <item>bnep\\d</item>
         <item>bt-pan</item>
+        <item>bt-dun</item>
     </string-array>
     <array name="config_tether_dhcp_range" />
     <array name="config_mobile_hotspot_provision_app" />
@@ -306,6 +306,7 @@
         <item>4</item>
         <item>5</item>
         <item>7</item>
+        <item>9</item>
     </integer-array>
     <array name="config_cdma_dun_supported_types" />
     <array name="config_tether_apndata" />
